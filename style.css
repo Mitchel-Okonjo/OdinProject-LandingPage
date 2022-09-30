@@ -19,6 +19,7 @@ body {
     flex-direction: column;
     padding: 20px 200px 100px;
     justify-content: space-between;
+    gap: 100px;
 }
 
 .header-content {
@@ -86,6 +87,36 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.first {
+    text-align: center;
+    padding: 50px 200px 100px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.information-items > div {
+    width: 200px;
+    font-size: 18px;
+}
+
+.info-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 5px;
 }
 
 .footer {

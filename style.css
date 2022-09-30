@@ -90,13 +90,14 @@ a {
 }
 
 .first {
-    text-align: center;
     padding: 50px 200px 100px;
 }
 
 .information-header {
     font-size: 36px;
     font-weight: 900;
+    color: #1F2937;
+    text-align: center;
 }
 
 .information-items {
@@ -117,6 +118,40 @@ a {
     height: 200px;
     border-radius: 15px;
     margin-bottom: 5px;
+}
+
+.second {
+    display: flex;
+    text-align: center;
+    padding: 100px 200px 100px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.second .quote {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    align-items: center;
+    gap: 16px;
+
+}
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    align-self: flex-start;
+}
+
+.quote-sayer {
+    font-size: 20px;
+    font-weight: 900;
+    align-self: flex-end;
 }
 
 .footer {
